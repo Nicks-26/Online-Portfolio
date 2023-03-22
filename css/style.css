@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-group {
+    padding-left: 17px;
+    padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 375px) {
+    .card-group {
+        padding-left: 45px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .card-group {
+        padding-left: 75px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .card-group {
+        padding-right: 65px;
+    }
+}
